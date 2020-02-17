@@ -1,0 +1,341 @@
+body {
+    background-color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    /*font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5;*/
+    padding: auto auto;    
+}
+
+/*header {
+    width: 100%;
+    height: 60px;
+}*/
+
+header section {
+   /* color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -10000px;*/
+    font-family: 'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*background-position: 0 -254px;
+    width: 176px;
+    height: 32px;*/    
+}
+
+header .main-logo img{
+    background-repeat: no-repeat;
+    width: 176px;
+    height: 32px;
+    margin-top: 30px;
+}
+
+header .header-text{    
+    height: 32.8px;
+    margin-bottom: 72px;    
+}
+
+main .world img{
+    background-repeat: no-repeat;
+    width: 327.6;
+    height: 195px;
+    display: flex;
+    /*justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;*/
+    margin: 0 auto;
+    /*border-radius: 50%;*/
+}
+
+main a{
+    color: #36c;
+    text-decoration: none;
+    /*display: flow-root;*/
+    display: grid;
+    text-align: center;    
+}
+
+main .central-lang strong:hover{
+    text-decoration: underline !important;
+}
+
+small{
+    color: #54595d;
+    font-size: 12px;
+    /*text-decoration-color: #fff;*/
+}
+
+main .central-lang small{
+    margin-top: -16px !important;
+    margin-bottom: 5px!important;
+}
+
+main .central-lang1{
+   /*margin: -1000 100 1000;*/   
+    margin-top:  -254px !important;
+    margin-left: -260px !important;
+}
+
+main .central-lang2{
+    margin-top:  -75px !important;
+    margin-right: -260px !important;
+}
+
+main .central-lang3{  
+     margin-top:  -12px !important;
+     margin-left: -365px !important;
+ }
+ 
+ main .central-lang4{
+     margin-top:  -65px !important;
+     margin-right: -365px !important;
+ }
+
+ main .central-lang5{  
+    margin-top:  0px !important;
+    margin-left: -385px !important;    
+}
+
+main .central-lang6{
+    margin-top:  -75px !important;
+    margin-right: -385px !important;
+}
+
+main .central-lang7{  
+    margin-top:  0px !important;
+    margin-left: -365px !important;
+}
+
+main .central-lang8{
+    margin-top:  -75px !important;
+    margin-right: -365px !important;
+}
+
+main .central-lang9{  
+    margin-top:  0px !important;
+    margin-left: -260px !important;
+}
+
+main .central-lang10{
+    margin-top:  -75px !important;
+    margin-right: -260px !important;
+}
+
+main .buscar{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+main .buscar input{    
+    width: 320px;
+    height: 25.2px;
+    padding: 8px 64px 8px 8px;
+    margin-top: 10px;      
+    border: 1px solid #a2a9b1;      
+}
+
+main .arrow{      
+    width: 20px;
+    height: 24px;
+    margin-top: -50px;
+    margin-left: 303px;
+}
+
+main .arrow:hover{
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+main .lupa{      
+    width: 50px;
+    height: 57px;
+    margin-top: -50px;
+    margin-left: 342px;
+}
+
+main .lupa:hover{
+    cursor: pointer;
+    background-color: none;    
+}
+
+main .boton-azul{
+    display: flex;
+    margin-top: -43px;
+    margin-left: 338px;
+    width: 58.2px;
+    height: 44.2px;
+    background-color: #36c;
+    border-color: #36c;
+    border-style: none;
+    border-radius: 2px;
+}
+
+main .boton-azul:hover{
+    cursor: pointer !important;
+    background-color: rgb(85, 132, 226);
+}
+
+main .boton-arrow{
+    display: flex;
+    margin-top: -42px;
+    margin-left: 280px;
+    width: 58.2px;
+    height: 41.2px;
+    background-color:#fff ;
+    border-color: #fff;
+    border-style: none;    
+}
+
+main .boton-arrow:hover{
+    cursor: pointer;
+}
+
+main  .boton-arrow p{
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;   
+    margin-top: 12px;
+    font-size: 13px; 
+}
+
+.line1{    
+    background-color: #c8ccd1;
+    display: block;
+    position: relative;    
+    width: 100%;
+    margin: 40px auto 16px;
+    height: 0.8px;    
+}
+
+.boton-leer{   
+    background: #f8f9fa;    
+    width: 280px;
+    height: 40px;
+    padding: 0%;
+    background-color: #f8f9fa;
+    border-color:#fff;
+    border-style: solid;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+    border-radius: 1px;
+    margin-top: -35px;
+    margin-left: 50px;    
+    position: relative;
+  }
+
+  .boton-leer:hover{
+    background-color: #fff; 
+  }
+
+  .img1{   
+    display: flex;   
+    margin-top: -38px;
+    margin-left: 8px;
+  }
+  
+  .img2{
+    display: flex;
+    margin-top: -13px;
+    margin-left: 215px;
+  }
+
+  .boton-leer p{      
+    width: 238px;   
+    padding: 9px 0px 9px 0px;
+    border-color:#a2a9b1;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    border-width: 1px;    
+    border-style: solid;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 12px;    
+    margin-top: -12px;    
+    /*color: #f8f9fa;*/
+    color: #36C;
+  }
+
+footer .middle{
+    background-repeat: no-repeat;
+    display: f;    
+}
+
+.line2{
+    height: 0;
+    width: auto;
+    border: 0;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 2rem 1.3rem 1rem 2rem; 
+}
+
+.up-down img{
+    position: absolute;
+    height: 42px;
+    left: 12px;
+    background-position: 0 -212px;    
+}
+
+footer .up{   
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; 
+    color: #54595d;
+    font-size: 13px;
+    text-align: left;   
+    width: 237.8px;
+    padding: 8px 60px;
+}
+
+footer .down{   
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; 
+    color: #54595d;
+    font-size: 13px;
+    text-align: left;   
+    width: 237.8px;
+    padding: 8px 60px 50px 60px;
+    background-color:#f8f9fa;    
+}
+
+.app{     
+    height: 44px;
+    margin-left: 56px;
+}
+
+.wiki{
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Lato,'Helvetica Neue',Helvetica,Arial,sans-serif; 
+    color: #54595d;
+    font-size: 13px;
+    text-align: left;   
+    width: 237.8px;
+    padding: 8px 60px;     
+}   
+
+.wiki img{ 
+    position: absolute;
+    left: 12px;
+    background-position: 0 -212px;    
+    height: 37px;
+    left: -60px;       
+} 
+
+.bloq1 {
+    position: relative;
+    top: -310px;
+	left: 380px;    
+}
+
+.bloq2 {
+    position: relative;
+    top: -530px;
+	left: 600px;    
+}
+
+.bloq3 {
+    position: relative;
+    top: -720px;
+	left: 820px;    
+}
+
